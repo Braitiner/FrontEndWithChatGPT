@@ -1,16 +1,23 @@
 /*This CSS file applies styles to our HTML page*/
 body{
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #0a0a0a;
+    color: #cecdcd;
 }
 
 header h1{
-    color: #2c3e50;
+    color: #288bee;
     text-align: center;
 }
 
 section p{
     font-size: 1.1em;
     line-height: 1.6;
+}
+
+section button{
+    color: #fff;
+    background-color: #083502b4;
+    width: 75px;
+    height: 32px;
 }
