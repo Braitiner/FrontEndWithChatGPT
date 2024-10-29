@@ -1,5 +1,5 @@
-document.addEventListener("DOMcontentLoaded", () => {
-    const button = document.getElementById("btn-detail");
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("btn-details");
     const extraDetails = document.getElementById("extra-details")
     button.addEventListener("click", () => {
         extraDetails.classList.toggle("hidden")
