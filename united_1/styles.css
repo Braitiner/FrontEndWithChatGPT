@@ -1,0 +1,46 @@
+/* select all paragraphs */
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* select the header */
+header {
+    background-color: #2786e6;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Space around a section */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Adds a borders with rounded corners */
+section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+article {
+    margin: 40px;
+    padding: 20px;
+    background-color: #e6e3e3;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #2786e6;
+    text-align: center;
+    color: #fff;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
