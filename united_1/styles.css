@@ -69,3 +69,7 @@ a:hover {
     color: #1a4f87;
     text-decoration: underline;
 }
+
+#specialSection{
+    display: none;
+}

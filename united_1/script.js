@@ -15,3 +15,14 @@ const mybotton = document.getElementById("button");
 mybotton.addEventListener("click", function(){
     alert("Button clicked")
 });
+
+const ocultingbutton = document.getElementById("buttonOculting");
+const specialSection = document.getElementById("specialSection");
+ocultingbutton.addEventListener("click", function() {
+    const displayStatus = window.getComputedStyle(specialSection).display;
+    if(displayStatus === 'none') {
+        specialSection.style.display = 'block';
+    } else {
+        specialSection.style.display = 'none';
+    }
+});
